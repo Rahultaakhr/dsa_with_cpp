@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    
+
     cout << "Hello World" << endl;
     cout << "Namsate Duniya" << endl;
     cout << "Hello Rahul " << endl;
@@ -19,21 +19,19 @@ int main()
     char ch = 'a';
     cout << ch << endl;
 
-// long data type
-    long A =56;
+    // long data type
+    long A = 56;
     cout << A << endl;
-
 
     // type conversion
 
-    int CH= 'A';
+    int CH = 'A';
     cout << CH << endl;
 
-    int CH2= 'a';
+    int CH2 = 'a';
     cout << CH2 << endl;
 
-    float CH3 ='m';
+    float CH3 = 'm';
     cout << CH3 << endl;
-
 
 }

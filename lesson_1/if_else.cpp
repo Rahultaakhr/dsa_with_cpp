@@ -15,20 +15,36 @@ int main()
     //    cout << "a is not greater";
     // }
 
-    int a;
-    cout << "Enter a: ";
-    cin >> a;
+    // int a;
+    // cout << "Enter a: ";
+    // cin >> a;
 
-    if (a > 22)
+    // if (a > 22)
+    // {
+    //     cout << "Hii" << endl;
+    // }
+    // else if (a > 33)
+    // {
+    //     cout << "Helloo" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Nothing";
+    // }
+
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+    if (n > 0)
     {
-        cout << "Hii" << endl;
+        cout << " n is positive number";
     }
-    else if (a > 33)
+    else if (n < 0)
     {
-        cout << "Helloo" << endl;
+        cout << "n is negative number";
     }
     else
     {
-        cout << "Nothing";
+        cout << "n is 0 ";
     }
 }

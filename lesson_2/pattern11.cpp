@@ -26,13 +26,13 @@ int main()
         int space = i;
         while (space < n)
         {
-            cout << "*";
+            cout << " ";
             space++;
         }
 
         while (j <= i)
         {
-            cout << j;
+            cout << "*";
             j++;
         }
 

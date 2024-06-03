@@ -11,18 +11,28 @@ int main()
     int i = 1;
     while (i <= n)
     {
-
-        int space = i;
         int j = 1;
-        while (space <= n)
+        // first solution
+        // int space =n-i;
+        // while (space)
+        // {
+        //     cout <<"*";
+        //    space--;
+        // }
+
+
+        // first solution
+        
+        int space = i;
+        while (space < n)
         {
-            cout << " ";
+            cout << "*";
             space++;
         }
 
         while (j <= i)
         {
-            cout << "*";
+            cout << j;
             j++;
         }
 
